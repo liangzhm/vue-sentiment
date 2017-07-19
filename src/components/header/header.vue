@@ -3,7 +3,7 @@
     <div class="inner-title-wrapper">
     	<!-- 登录前 -->
     	<div class="inner-title loginBefore hide">
-    		<div class="yq-title"><b>你好，欢迎登录国搜舆情监控系统！</b></div>
+    		<div class="yq-title"><b>你好，欢迎登录舆情监控系统！</b></div>
     		<div class="yq-userNav">
 	        	<span><a href="javascript:;">注册</a></span>
 	            <span class="sp">|</span>
@@ -19,7 +19,7 @@
     	<!-- 登陆后 -->
         <div class="inner-title loginAfter ">
         	<div class="yq-title">
-	            <span class="title"><em>中国搜索舆情监控系统</em> • 政务版</span>
+	            <span class="title"><em>舆情监控系统</em> • 政务版</span>
 	            <span class="time">2017年03月31日</span>
 	        </div>
 	        <div class="yq-userNav">
