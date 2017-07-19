@@ -1,0 +1,183 @@
+.s-skin-layer-shadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    display: none
+}
+
+.skin_layer {
+    width: 100%;
+    height: 193px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #fff;
+    z-index: 99999
+}
+
+.skin_layer_header {
+    height: 32px;
+    line-height: 32px;
+    background: #f8f8f8;
+    border-bottom: #e6e7e9 1px solid
+}
+
+.skin_layer_header .skin_layer_warp {
+    width: 860px;
+    margin: auto
+}
+
+.skin_layer_header_nav ul li {
+    float: left
+}
+
+.skin_layer_header_nav ul li a {
+    display: block;
+    padding: 0 10px;
+    color: #999
+}
+
+.skin_layer_header .cur a,.skin_layer_header_nav ul li a:hover {
+    background: #327ccb;
+    color: #fff;
+    text-decoration: none
+}
+
+.skin_layer_header_no {
+    margin-right: 25px
+}
+
+.skin_layer_header_no a {
+    color: #999;
+    padding-left: 15px
+}
+
+.skin_layer_header_no a:hover {
+    background-position: -50px -369px;
+    color: #327ccb
+}
+
+.skin_layer_header_up a {
+    color: #327ccb;
+    padding-left: 15px;
+    background: url(../images/chinaso_index_ico.png) -50px -370px no-repeat
+}
+
+.skin_layer_photo {
+    width: 860px;
+    height: 120px;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+    z-index: 9
+}
+
+.skin_layer_photo_img {
+    width: 860px;
+    overflow: hidden;
+    position: relative;
+    height: 120px
+}
+
+.skin_layer_photo_img .cur i {
+    display: block
+}
+
+.skin_layer_photo_img ul {
+    width: 880px;
+    position: absolute
+}
+
+.skin_layer_photo_img ul li {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+    z-index: 1
+}
+
+.skin_layer_photo_img ul .none {
+    margin-right: 0
+}
+
+.skin_layer_photo_img ul li img {
+    width: 200px;
+    height: 120px
+}
+
+.skin_layer_photo_img ul li p {
+    display: none;
+    width: 200px;
+    height: 120px;
+    background: url(../images/chinaso_index_ico_bg.png);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    color: #fff;
+    line-height: 120px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer
+}
+
+.skin_layer_photo_img ul li i {
+    display: none;
+    width: 32px;
+    height: 32px;
+    background: url(../images/chinaso_index_ico.png) 0 -348px no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3
+}
+
+.skin_layer_photo_img ul li:hover p {
+    display: block
+}
+
+.skin_layer_photo_switch i {
+    display: block;
+    cursor: pointer;
+    width: 16px;
+    height: 30px;
+    position: absolute;
+    top: 45px;
+    z-index: 3
+}
+
+.an_color .search_box .logo img,.imgForm,.ming_color .search_box .logo img {
+    display: none
+}
+
+.skin_layer_photo_switch .prev {
+    left: -45px;
+    background: url(../images/chinaso_index_ico.png) 0 -312px
+}
+
+.skin_layer_photo_switch .next {
+    right: -45px;
+    background: url(../images/chinaso_index_ico.png) -16px -312px
+}
+
+.skin_layer_load {
+    text-align: center;
+    cursor: pointer;
+    top: 0;
+    z-index: 9;
+    width: 880px;
+    height: 120px;
+    background: #fff;
+    position: absolute
+}
+
+.skin_layer_load img {
+    width: 31px;
+    height: 31px;
+    margin-top: 40px
+}

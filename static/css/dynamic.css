@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ margin:0px; padding:0px; }
+li{list-style:none;}
+.highcharts-button-symbol,.highcharts-credits{ display:none;}
+.dynamic_body{ width:1040px; margin:0 auto;}
+/*综合指数标题*/
+.dynamic_3se{ overflow:hidden;}
+.dynamic_title .dynamic_3se ul li{ float:left; color:#666; font-size:14px; padding:0 10px 0 0;line-height: 14px;height: 14px; border:none; margin-right:inherit;}
+.dynamic_title .dynamic_3se ul{margin: 6px 0 0 0;}
+.dynamic_3se .Red{ color:#fd0000;}
+.dynamic_3se .Yellow{ color:#ffd800;}
+.dynamic_3se .Green{ color:#10d219;}
+/*小标题*/
+.dynamic_title{ width:1000px;padding: 15px 0;overflow: hidden;}
+.dynamic_title .yqData-filter-list{ clear:none; float:left; padding-left:15px; width:86%; }
+.dynamic_title_01{ padding-top:0; width:400px;}
+.dynamic_title h3{ font-size:20px; color:#cc0000; height:20px; line-height:20px; font-weight:normal; float:left}
+.dynamic_zdy{position:relative; float:left;}
+.dynamic_zdy a{color:#0070c0; border-left:1px solid #cecece; margin-left:10px; padding-left:20px;cursor: pointer;}
+
+/*切换tab*/
+.dynamic_tab{ font-size:16px; color:#222;border-left:1px solid #cecece; overflow:hidden;margin-bottom: -1px;}
+.dynamic_tab li{ float:left; padding:0 28px; line-height: 36px; height:36px;border-top:1px solid #cecece; background:#f4f3f4; border-right:1px solid #cecece;border-bottom:1px solid #cecece;cursor:pointer;}
+.dynamic_tab .cur{ background:#fff;border-bottom:none; height:37px; }
+
+.dynamic_zhzs{ height:370px; margin-top:15px;}
+.dynamic_zhzs_left{width: 320px; float:left;min-width:320px;}
+.dynamic_zhzs_zhzs{ width:320px}
+.dynamic_zhzs_right{width:698px; height:310px;float:right; }
+.dynamic_zhzs_tst{  border:1px solid #cecece; }
+.dynamic-list{ border:1px solid #cecece; padding-top:20px; margin-bottom:10px; height:430px;}
+.dynamic_title.yqData-filter{ border:none; padding: 18px 0 18px 0;}
+.dynamic_zhzs_zhzs{ background:url(../images/container_zhzs.jpg);}
+.highcharts-button-box{ display:none;}
+.ui-btn,.ui-input,.ui-textarea{-webkit-transition-property:background-color,color,width,border-color;-webkit-transition-duration:.3s;-moz-transition-property:background-color,color,width,border-color;-moz-transition-duration:.3s;-o-transition-property:background-color,color,width,border-color;-o-transition-duration:.3s;transition-property:background-color,color,width,border-color;transition-duration:.3s; border:0;}
+.ui-btn{text-align:center; line-height:30px; display:inline-block; font-size:16px; color:#fff;}
+.ui-btn:hover{text-decoration:none;}
+.ui-btn-yellow{background:#ffab00;}
+.ui-btn-yellow:hover{background:#ffb92a;}
+.yqData-filter,.yqData-filter a,button,input, select,textarea,table{font-family:"Microsoft Yahei"}
+h2,h3{font-weight:normal;}
+.yqData-filter{border: 1px solid #cecece; border-radius: 3px;    padding: 18px 30px; }
+.yqData-filter-title .tit{font-size:20px; color:#c00; margin-bottom:17px;}
+.yqData-filter-list{padding-left:75px; line-height:20px; font-size:16px; clear:both; *zoom:1;}
+.yqData-filter-list .tit{float:left; margin-left:-75px; color:#222; font-size:16px;}
+.yqData-filter-ul li{float:left; margin:0 12px 12px 0; display:inline; color:#999;}
+.yqData-filter-ul .lb{display:inline-block; padding:0 7px; cursor:pointer;}
+.yqData-filter-ul .lb:hover{color:#222}
+.yqData-filter-ul .ckb{display:none;}
+.yqData-filter-ul .cur .lb{background:#44b0dd; color:#fff; border-radius:2px; cursor:default;}
+.yqData-filter-ul .del .lb{border:1px solid #44b0dd; border-radius:2px; position:relative; cursor:default;}
+.yqData-filter-ul .del .close{position:absolute; width:12px; height:12px; display:block; right:-6px; top:-6px; cursor:pointer; background:url(../images/new_ico.png) no-repeat 0 0;}
+.yqData-filter-ul .last{border-left:1px solid #cecece; margin-left:6px; padding-left:21px; position:relative; height:20px;}
+.yqData-filter-ul .last a{color:#0070c0; text-decoration:underline;}
+.yqData-filter .custom-form{left:22px; top:24px; width:210px; margin-top:4px;}
+.yqData-filter .custom-form .int{border:1px solid #cecece; border-right:0; width:141px; padding:0 6px; line-height:20px; height:20px; vertical-align:top; color:#a9a9a9}
+.yqData-filter .custom-form .btn{width:56px; height:22px; line-height:22px; border:0; background:#44b0dd; text-align:center; color:#fff; font-size:14px; vertical-align:top;    cursor: pointer;}
+.yqData-filter-btn{padding:10px 0 7px;}
+.yqData-filter-btn .ui-btn{width:200px; border-radius:3px; color:#fff;}
+
+.fd_red{color:#fd0000; font-size:60px; font-family:"Microsoft YaHei";}
+
+.dynamic_zhzs_tst .highcharts-container,.dynamic_fldt .highcharts-container{    overflow: inherit!important;}
+.dynamic_fldt .titleEn{position: absolute;right: -100px;top: -60px;}
+.titleEn{position: absolute;right: -60px;top: -40px;}
+.titleEn li{ position:relative;}
+.titleEn i{width: 6px;height: 6px;display: block;float: left; position: absolute; top: 6px; left: -10px;}
+.titleEn .zm{background: #0fd319; }
+.titleEn .fm{background: #ff0100; }
+.titleEn .zx{background: #0067fe; }
+.dynamic-list form{ float: right;margin-right: 20px;font-size: 14px; color: #666;}
+.dynamic label {padding-right: 20px;}
+
+.box .dynamic-list_0{ display:none;}
+.box div.dynamic-list { display: block;}
+.highcharts-background{ width:1038px;}

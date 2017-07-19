@@ -1,0 +1,65 @@
+.w400{width: 400px;}
+.w280{width: 280px;}
+.w300{width: 300px; cursor: }
+.mr20{margin-right: 20px;}
+.yq-index-wrapper{width: 1080px;margin-top: 20px;}
+.yq-index-left,.yq-index-center{float: left; margin-left: 20px;}
+.yq-index-right{float: right;}
+/*最新动态*/
+.yq-index-zxdt{font-family: "\u5fae\u8f6f\u96c5\u9ed1";}
+.yq-index-zxdt-title{height: 30px;border-bottom: 1px solid #ced0d3;}
+.yq-index-zxdt-title h2{float: left;margin-right: 25px;font-size: 20px;line-height: 20px;color: #cc0000; font-weight: normal;}
+.yq-index-zxdt-title ul,.yq-index-zxdt-title ul li{float: left;}
+.yq-index-zxdt-title ul{position: relative;}
+.yq-index-zxdt-title ul li{padding: 0 5px;margin-right: 15px;font-size: 16px;line-height: 30px;cursor: pointer;}
+.yq-index-zxdt-title ul li.cur,.yq-index-zxdt-title ul li:hover{height: 29px;border-bottom: 2px solid #47a0e4;}
+.yq-index-zxdt-title ul li a:hover{text-decoration: none;}
+
+.yq-index-zxdt-content ul{padding-top: 8px;}
+.yq-index-zxdt-content ul li{height: 30px;font-size: 14px;line-height: 30px;}
+.yq-index-zxdt-content ul li span{float: left;margin-right: 7px;font-size: 12px;color: #d0d7df;}
+.yq-index-zxdt-content ul li a.txt{float: left;width: 280px;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;display: inline-block;}
+.yq-index-zxdt-content ul li i{float: right;position: relative;font-style: normal;font-size: 12px;color: #666;}
+.yq-index-zxdt-content ul li.line{height: 0;border-bottom: 1px dotted #ccc;margin: 6px 0;}
+.yq-index-zxdt-content ul li a.more{float: right;}
+.yq-index-zxdt-content ul li a.more em{font-family: fantasy;font-style: normal;}
+/*舆情热图*/
+.yq-index-title{height: 30px;font: 20px/20px "\u5fae\u8f6f\u96c5\u9ed1";color: #cc0000;}
+.yq-index-yqrt{width: 286px;}
+.yq-index-yqrt li{float: left;width: 137px;height: 107px;background-color: #e8e8e8;margin: 0 6px 12px 0;}
+.yq-index-yqrt li img{float: left;width: 137px;height: 82px;}
+.yq-index-yqrt li p{overflow: hidden;width: 100%;height: 25px;font: 12px/25px "\u5b8b\u4f53";text-align: center;}
+/*舆情热点*/
+.yq-index-yqrd{height: 353px;}
+/*客服中心*/
+.kfzxWrapper{padding-right: 10px;}
+.gyzgss h3{height: 30px;font: 20px/20px "\u5fae\u8f6f\u96c5\u9ed1";color: #cc0000;}
+.gyzgss-img{float: left;width: 400px;height: 264px;margin-right: 20px;}
+.gyzgss-cont-txt{padding-left: 420px;}
+.gygsyq{margin-top: 50px;}
+.gyzgss-cont-txt p,.gygsyq-cont-txt p{font: 16px/32px "\u5fae\u8f6f\u96c5\u9ed1";text-indent: 2em;}
+/*联系我们*/
+.lxwm{margin-top: 50px;overflow: hidden;}
+.lxwm-map{float: left;width: 375px;height: 265px;}
+.lxwm-map iframe{width:100%;height:100%; border:none;}
+.lxwm-road{position: relative;float: left;margin-left: 55px;width: 540px;height: 100px;padding: 20px;border: 1px solid #bfdbf4;border-radius: 3px;background: #f5f9fc;}
+.lxwm-road span{position: absolute;left: -46px;top: 20px;width: 46px;height: 29px;background: url(../images/lxwm.gif) no-repeat;}
+.lxwm-road p{font: 16px/30px "\u5fae\u8f6f\u96c5\u9ed1";}
+
+/*首页宽度*/
+.yqFrame-bd {margin: 0 auto;}
+/*帮助*/
+.yq-help-left{float: left;width: 196px;border: 1px solid #cecece;border-top: 0 none;border-bottom: 0 none;padding-right: 2px;margin: -20px 0 -20px 10px;}
+.yq-help-right{padding: 0 30px 0 245px;}
+.yq-help-left-inner{width: 100%;float: left;background-color: #f9fbfc;padding-bottom: 20px;border-right: 1px solid #cecece;text-align: center;}
+.yq-help-left-inner h2{height: 34px;margin-top: 25px;font: 20px/20px "\u5fae\u8f6f\u96c5\u9ed1";color: #cc0000;}
+.yq-help-left-inner ul li{height: 43px;font: 16px/43px "\u5fae\u8f6f\u96c5\u9ed1";cursor: pointer;}
+.yq-help-left-inner ul li.cur,.yq-help-left-inner ul li:hover{background: #fff;border-left: 3px solid #44b0dd;margin-right: -3px;padding-right: 6px;box-shadow: 0 2px 10px #eeeff1, 0 -2px 10px #eeeff1;}
+.yq-help-cont{padding-top: 10px;}
+.yq-help-line{overflow: hidden;height: 1px;border-top: 1px dotted #767676;border-bottom: 1px dotted #767676;}
+dl,dt,dd{padding: 0;margin: 0;}
+.yq-help-cont dl{margin: 10px 0;}
+.yq-help-cont dt{font: 16px/30px "\u5fae\u8f6f\u96c5\u9ed1";color: #0070c0;cursor: pointer;}
+.yq-help-cont dd{display: none;}
+.yq-help-cont dd.bk{display: block;}
+.yq-help-cont dd p{font: 14px/30px "\u5fae\u8f6f\u96c5\u9ed1";text-indent: 2em;}
